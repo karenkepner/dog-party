@@ -3,8 +3,10 @@
 body {
   font-family: 'Raleway', Arial, sans-serif;
   width: 890px;
+  margin: 0px auto;
+  background-color: #FFFFFF;
 }
-
+/* styling for the navigation bar*/
 .dog-icon {
   float: left;
   display: inline-block;
@@ -12,7 +14,6 @@ body {
 }
 .nav-bar {
   float: right;
-
 }
 nav {
   display: inline-block;
@@ -27,7 +28,7 @@ nav a {
   text-decoration: none;
   padding: 0px 10px;
 }
-
+/* styling for the top banner */
 .top-banner {
   background-image: url("images/park.jpg");
   background-repeat: no-repeat;
@@ -47,22 +48,21 @@ nav a {
   border-color: #3A8CAC;
   border-width: 1px;
 }
+/* rules for the position and style of the three articles*/
 .one-third {
   display: inline-block;
   width: 30%;
   text-align: center;
+  vertical-align: top;
   padding: 10px;
+  margin-top: 0px;
 }
-.social-media {
-  display: inline-block;
-  margin: 0px auto;
-  padding: 0px;
-}
+
 button {
   display: block;
   text-align: center;
   font-family: 'Raleway', Arial, sans-serif;
-  font-size: .8em;
+  font-size: .75em;
   margin: 0px auto;
   width: 100px;
   height: 30px;
@@ -70,6 +70,8 @@ button {
   background-color: #FFFFFF;
   border: 2px #3A8AA6 solid;
 }
+/* footer styles */
+
 footer ul li {
   display: inline-block;
   text-align: center;
@@ -77,11 +79,17 @@ footer ul li {
   padding: 15px;
 }
 footer {
-  color: #FFFFFF;
+  color: #FFFFFF; /* white text*/
   background-color: #3F8DA7;
   text-align: center;
+  padding: 10px;
 }
 footer a {
-  color: #FFFFFF;
+  color: #FFFFFF; /* white text*/
 
+}
+#social-media {
+  display: inline-block;
+  margin: 0px auto;
+  padding: 0px;
 }
