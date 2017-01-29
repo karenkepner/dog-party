@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Raleway', Arial, sans-serif;
+  width: 890px;
 }
 
 .dog-icon {
@@ -15,7 +16,7 @@ body {
 }
 nav {
   display: inline-block;
-  width: 100%;
+  width: 890px;
   background-color: #92E0E5;
 }
 nav ul li{
@@ -30,6 +31,15 @@ nav a {
 .top-banner {
   background-image: url("images/park.jpg");
   background-repeat: no-repeat;
+  margin: 0px auto;
+  text-align: center;
+  width: 890px;
+}
+.banner-dog {
+  border-radius: 220px;
+  border-style: solid;
+  border-color: #3A8CAC;
+  border-width: 3px;
 }
 .round-corner {
   border-radius: 220px;
@@ -40,12 +50,38 @@ nav a {
 .one-third {
   display: inline-block;
   width: 30%;
+  text-align: center;
+  padding: 10px;
 }
 .social-media {
   display: inline-block;
   margin: 0px auto;
+  padding: 0px;
 }
-
-footer{
+button {
+  display: block;
+  text-align: center;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: .8em;
+  margin: 0px auto;
+  width: 100px;
+  height: 30px;
+  color: #4D95AD;
+  background-color: #FFFFFF;
+  border: 2px #3A8AA6 solid;
+}
+footer ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+  padding: 15px;
+}
+footer {
+  color: #FFFFFF;
   background-color: #3F8DA7;
+  text-align: center;
+}
+footer a {
+  color: #FFFFFF;
+
 }
