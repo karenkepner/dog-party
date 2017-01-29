@@ -1,0 +1,51 @@
+/* css for dog party assignment. version 3.0*/
+
+body {
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.dog-icon {
+  float: left;
+  display: inline-block;
+  padding: 5px;
+}
+.nav-bar {
+  float: right;
+
+}
+nav {
+  display: inline-block;
+  width: 100%;
+  background-color: #92E0E5;
+}
+nav ul li{
+  display: inline-block;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.top-banner {
+  background-image: url("images/park.jpg");
+  background-repeat: no-repeat;
+}
+.round-corner {
+  border-radius: 220px;
+  border-style: solid;
+  border-color: #3A8CAC;
+  border-width: 1px;
+}
+.one-third {
+  display: inline-block;
+  width: 30%;
+}
+.social-media {
+  display: inline-block;
+  margin: 0px auto;
+}
+
+footer{
+  background-color: #3F8DA7;
+}
